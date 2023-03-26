@@ -16,5 +16,5 @@ void setCataMotor() {
             cataPower = 0;
         }
     }
-
+    setCata(cataPower);
 }
