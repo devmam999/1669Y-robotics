@@ -2,7 +2,7 @@
 
 //set Catapult
 void setCata(int power) {
-    cata = power;
+    intakeCata = power;
 }
 
 //set Catapult Motor
