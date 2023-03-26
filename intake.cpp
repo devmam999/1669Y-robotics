@@ -2,7 +2,7 @@
 
 //setting intake
 void setIntake(int power) {
-    intake = power;
+    intakeCata = power;
 }
 
 //set intake Power
