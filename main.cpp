@@ -76,8 +76,7 @@ void autonomous() {}
 void opcontrol() {
 
 	while (true) {
-		setIntakeMotor();
-		setCataMotor();
+		setintakeCataMotor();
 		pros::delay(10);
 	}
 }
