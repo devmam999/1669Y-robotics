@@ -5,7 +5,7 @@ pros::Motor intake(1, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COU
 pros::Motor cata(2, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS);
 pros::Motor_Group intakeCata({intake, cata});
 //limitSwitch
-pros::ADIDigitalIn limitSwitch('2');
+pros::ADIDigitalIn limitSwitch('B');
 //controller
 pros::Controller controller(pros::E_CONTROLLER_MASTER);
 
