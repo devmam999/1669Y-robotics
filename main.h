@@ -73,8 +73,7 @@ void opcontrol(void);
 
 #ifdef __cplusplus
 #include "subsystemHeaders/globals.hpp"
-#include "subsystemHeaders/cata.hpp"
-#include "subsystemHeaders/intake.hpp"
+#include "subsystemHeaders/intakeCata.hpp"
 #endif
 
 #endif  // _PROS_MAIN_H_
